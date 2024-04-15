@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة الرئيسية - إنوكاسا</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            text-align: right;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        #slider {
+            width: 100%;
+            height: 400px;
+            background: url('image.png') center/cover no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        #slider h2 {
+            color: black;
+            font-size: 2em;
+            text-align: center;
+        }
+
+        #categories {
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+
+        #categories h2 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .category {
+            display: inline-block;
+            width: 30%;
+            margin: 0 1.5%;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            vertical-align: top;
+        }
+
+        .category img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .category h3 {
+            margin-top: 10px;
+            color: #333;
+            font-size: 1.2em;
+        }
+
+        .category p {
+            color: #666;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>مرحباً بك في إنوكاسا</h1>
+        <nav>
+            <ul>
+                <li><a href="pages\female_corsets.html">الرئيسية</a></li>
+                <li><a href="pages\female_corsets.html">منتجاتنا</a></li>
+                <li><a href="pages\female_corsets.html">عنا</a></li>
+                <li><a href="pages\female_corsets.html">اتصل بنا</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="slider">
+        <h2>اكتشف منتجاتنا الضرورية لحياتك اليومية</h2>
+    </div>
+
+    <section id="categories">
+        <h2>تصنيفات المنتجات</h2>
+        <div class="category">
+            <img src="kitchen.png" alt="منتجات المطبخ">
+            <h3>منتجات المطبخ</h3>
+            <p>كل ما تحتاجه لتجهيز مطبخك</p>
+        </div>
+        <div class="category">
+            <img src="bedroom.png" alt="منتجات النوم">
+            <h3>منتجات النوم</h3>
+            <p>راحة مثالية لنوم هانئ</p>
+        </div>
+        <div class="category">
+            <img src="personal-care.png" alt="منتجات العناية الشخصية">
+            <h3>منتجات العناية الشخصية</h3>
+            <p>اعتنِ بنفسك بأفضل المنتجات</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>جميع الحقوق محفوظة &copy; 2024 إنوكاسا</p>
+    </footer>
+</body>
+</html>
